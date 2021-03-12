@@ -26,8 +26,8 @@ Model:
 We used many different models, starting with KNN (K-Nearest Neighbors) using cosine & Pearson, but found that cosine was better for our needs, as the users weights were not a factor, and similar did KNN Baseline, and KNN Means. After that we wanted to use SVD (Singular Value Decomposition) to possibly find a better result, and used GridSearch to reveal the best parameters. SVD ended up having the best results, and therefore it was used.
 
 <p float="left">
-  <img width="450" height="270" src=images/frequency_of_genres.png>
-  <img width="450" height="270" src=images/rating_distribution.png>
+  <img width="400" height="250" src=images/frequency_of_genres.png>
+  <img width="400" height="250" src=images/rating_distribution.png>
  </p>
 
 Conclusions:
